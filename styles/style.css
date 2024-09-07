@@ -1,0 +1,72 @@
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
+html {
+  display: flex;
+  background: rgb(2,0,36);
+  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+body {
+    margin: 0;
+  
+    /* BEGIN (write your solution here) */
+    font-size: 18px;
+    color: #333;
+    /* END */
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* BEGIN (write your solution here) */
+  h1 {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    text-align: left;
+  }
+  
+  /* END */
+  
+  h2 {
+    /* BEGIN (write your solution here) */
+    color: yellow;
+    margin-top: 0px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    text-align: left;
+    /* END */
+  
+    border-bottom: 2px solid #e3e3e3;
+  }
+  
+  main {
+    width: 900px;
+    margin: auto;
+  }
+  
+  /* BEGIN (write your solution here) */
+  section {
+    margin: 50px 0 50px 0;
+    padding: 0 50px;
+  }
+  section h1, section h2 {
+    padding: 0;
+    text-align: left;
+    border: 0;
+  }
+  ul > li {
+    text-align: left;
+    color:aqua;
+    margin-bottom: 15px;
+  }
+  /* END */
+  h3 {
+    /* BEGIN (write your solution here) */
+    color:blue;
+    margin-top: 0px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    text-align: left;
+    /* END */
+  
+    border-bottom: 2px solid #e3e3e3;
+  }
